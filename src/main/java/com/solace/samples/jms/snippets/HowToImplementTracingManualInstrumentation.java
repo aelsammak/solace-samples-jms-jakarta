@@ -33,9 +33,9 @@ import io.opentelemetry.semconv.SemanticAttributes;
 import io.opentelemetry.semconv.SemanticAttributes.MessagingDestinationKindValues;
 import io.opentelemetry.semconv.SemanticAttributes.MessagingOperationValues;
 import java.util.function.Consumer;
-import javax.jms.Message;
-import javax.jms.MessageProducer;
-import javax.jms.Topic;
+import jakarta.jms.Message;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Topic;
 
 /**
  * Example how to manually instrument Solace JMS publisher and receiver. All examples assume usage

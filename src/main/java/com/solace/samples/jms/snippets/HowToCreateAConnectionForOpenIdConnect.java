@@ -25,9 +25,9 @@ import com.solacesystems.jms.SupportedProperty;
 import com.solacesystems.jms.events.SolConnectionEvent;
 import com.solacesystems.jms.events.SolReconnectingEvent;
 
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.JMSException;
+import jakarta.jms.Connection;
+import jakarta.jms.ConnectionFactory;
+import jakarta.jms.JMSException;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.time.Instant;

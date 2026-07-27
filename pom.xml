@@ -4,8 +4,8 @@
     <groupId>solace-samples</groupId>
     <artifactId>solace-samples-jms</artifactId>
     <version>1.0.1-SNAPSHOT</version>
-    <name>Solace JMS 1.1 Examples</name>
-    <description>Solace Messaging Examples for JMS 1.1</description>
+    <name>Solace Jakarta Messaging Examples</name>
+    <description>Solace Messaging Examples for Jakarta Messaging (JMS 3.1)</description>
 
     <properties>
         <opentelemetry.version>1.42.1</opentelemetry.version>
@@ -27,13 +27,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>javax.jms</groupId>
-            <artifactId>javax.jms-api</artifactId>
-            <version>2.0.1</version>
+            <groupId>jakarta.jms</groupId>
+            <artifactId>jakarta.jms-api</artifactId>
+            <version>3.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.solacesystems</groupId>
-            <artifactId>sol-jms</artifactId>
+            <artifactId>sol-jms-jakarta</artifactId>
             <version>[10.30.1,)</version>
         </dependency>
 
@@ -47,7 +47,7 @@
             <artifactId>solace-schema-registry-avro-serde</artifactId>
         </dependency>
 
-        <!-- Solace OpenTelemetry Integration for JMS -->
+        <!-- Solace OpenTelemetry Integration for JMS (namespace-agnostic — uses reflection, works with jakarta.jms) -->
         <dependency>
             <groupId>com.solace</groupId>
             <artifactId>solace-opentelemetry-jms-integration</artifactId>
