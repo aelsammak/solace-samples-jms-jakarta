@@ -27,11 +27,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>jakarta.jms</groupId>
-            <artifactId>jakarta.jms-api</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.solacesystems</groupId>
             <artifactId>sol-jms-jakarta</artifactId>
             <version>[10.30.1,)</version>

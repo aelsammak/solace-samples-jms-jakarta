@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: BasicReplier
+ *  Solace Jakarta Messaging Examples: BasicReplier
  */
 
 package com.solace.samples;
@@ -42,7 +42,7 @@ import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Receives a request message using Solace JMS API implementation and replies to it.
+ * Receives a request message using Solace Jakarta Messaging API implementation and replies to it.
  * 
  * This is the Replier in the Request/Reply messaging pattern.
  */

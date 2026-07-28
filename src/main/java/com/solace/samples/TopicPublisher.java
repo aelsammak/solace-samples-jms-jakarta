@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: TopicPublisher
+ *  Solace Jakarta Messaging Examples: TopicPublisher
  */
 
 package com.solace.samples;
@@ -35,7 +35,7 @@ import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Publishes a messages to a topic using Solace JMS 1.1 API implementation.
+ * Publishes a messages to a topic using Solace Jakarta Messaging API implementation.
  * 
  * This is the Publisher in the Publish/Subscribe messaging pattern.
  */

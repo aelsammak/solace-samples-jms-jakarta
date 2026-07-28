@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: ExtJndiImport
+ *  Solace Jakarta Messaging Examples: ExtJndiImport
  */
 
 package com.solace.samples;

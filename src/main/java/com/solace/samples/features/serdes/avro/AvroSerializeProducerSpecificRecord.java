@@ -36,7 +36,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with Avro serialization to produce messages
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with Avro serialization to produce messages
  * from a generated Avro specific record (the {@link User} class). It connects to a Solace message broker,
  * serializes a strongly-typed {@code User} using Avro, and publishes a single message to a topic.
  *

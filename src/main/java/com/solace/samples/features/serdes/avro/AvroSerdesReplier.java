@@ -52,7 +52,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with Avro serialization and deserialization
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with Avro serialization and deserialization
  * for the Request-Reply messaging pattern. It connects to a Solace message broker, receives a CreateUser
  * request, deserializes it using Avro into a generic record (an Avro {@link GenericRecord}), creates a
  * CreateUserResponse, serializes it using Avro, and sends it back to the requestor.

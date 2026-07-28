@@ -39,7 +39,7 @@ import jakarta.jms.Topic;
 
 /**
  * Example how to manually instrument Solace JMS publisher and receiver. All examples assume usage
- * of a newer Solace JMS API v10.18.0 or newer.
+ * of a newer Solace Jakarta Messaging API v10.18.0 or newer.
  */
 public class HowToImplementTracingManualInstrumentation {
 

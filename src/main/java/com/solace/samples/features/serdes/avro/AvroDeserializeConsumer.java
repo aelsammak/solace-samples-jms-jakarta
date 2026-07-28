@@ -39,7 +39,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use Solace JMS API with Avro deserialization to consume a message.
+ * This sample demonstrates how to use Solace Jakarta Messaging API with Avro deserialization to consume a message.
  * It connects to a Solace message broker, subscribes to a topic, and deserializes the received message using Avro
  * into a generic record (an Avro {@link GenericRecord}). This is the default record type and requires no
  * generated schema class.

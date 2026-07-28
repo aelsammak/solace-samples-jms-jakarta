@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: ExtJndiTest
+ *  Solace Jakarta Messaging Examples: ExtJndiTest
  */
 
 package com.solace.samples;

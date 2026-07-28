@@ -37,7 +37,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with JSON Schema serialization to produce a message.
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with JSON Schema serialization to produce a message.
  * It connects to a Solace message broker, serializes a Plain Old Java Object (POJO) using the
  * {@link JsonSchemaSerializer}, and publishes a single message to a topic.
  *

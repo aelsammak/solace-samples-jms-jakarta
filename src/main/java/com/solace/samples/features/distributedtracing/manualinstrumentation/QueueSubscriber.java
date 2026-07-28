@@ -46,7 +46,7 @@ import io.opentelemetry.context.Scope;
 import io.opentelemetry.semconv.SemanticAttributes;
 
 /**
- * Subscribes to message published to a Queue using Solace JMS 1.1 API implementation.
+ * Subscribes to message published to a Queue using Solace Jakarta Messaging API implementation.
  * <p>
  * Setup a Solace PubSub+ Broker and OpenTelemetry Collector as per tutorial  >
  * https://codelabs.solace.dev/codelabs/dt-otel/index.html

@@ -49,7 +49,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * This sample demonstrates publishing and subscribing with JSON Schema serialization and deserialization
- * using the Solace JMS API. It connects to a Solace message broker, publishes a User message serialized
+ * using the Solace Jakarta Messaging API. It connects to a Solace message broker, publishes a User message serialized
  * with JSON Schema, and receives and deserializes the message back to a JsonNode.
  *
  * <p>Before running this sample, you must upload the user.json schema to the Solace Schema Registry
@@ -75,7 +75,7 @@ public class HelloWorldJmsJsonSchemaSerde {
     private static final String REGISTRY_PASSWORD = getEnv("REGISTRY_PASSWORD", "roPassword");
 
     /**
-     * The main method that demonstrates the Solace JMS API usage with JSON Schema serialization/deserialization.
+     * The main method that demonstrates the Solace Jakarta Messaging API usage with JSON Schema serialization/deserialization.
      *
      * @param args Command line arguments: &lt;host:port&gt; &lt;message-vpn&gt; &lt;client-username&gt; [password]
      * @throws Exception If any error occurs during execution

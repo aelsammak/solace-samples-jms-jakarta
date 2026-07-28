@@ -45,7 +45,7 @@ import jakarta.jms.TextMessage;
 import jakarta.jms.Topic;
 
 /**
- * Sends a persistent message to a queue using Solace JMS API implementation.
+ * Sends a persistent message to a queue using Solace Jakarta Messaging API implementation.
  * <p>
  * Setup a Solace PubSub+ Broker and OpenTelemetry Collector as per tutorial  >
  * https://codelabs.solace.dev/codelabs/dt-otel/index.html

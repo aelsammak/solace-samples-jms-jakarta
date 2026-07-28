@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueConsumer
+ *  Solace Jakarta Messaging Examples: QueueConsumer
  */
 
 package com.solace.samples;
@@ -39,7 +39,7 @@ import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Receives a persistent message from a queue using Solace JMS API implementation.
+ * Receives a persistent message from a queue using Solace Jakarta Messaging API implementation.
  *
  * The queue used for messages is created on the message broker.
  */

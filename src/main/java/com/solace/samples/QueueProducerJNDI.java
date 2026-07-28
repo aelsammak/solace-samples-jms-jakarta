@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueProducerJNDI
+ *  Solace Jakarta Messaging Examples: QueueProducerJNDI
  */
 
 package com.solace.samples;
@@ -37,7 +37,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 
 /**
- * Sends a persistent message to a queue using Solace JMS API implementation.
+ * Sends a persistent message to a queue using Solace Jakarta Messaging API implementation.
  * 
  * The queue used for messages must exist on the message broker.
  */

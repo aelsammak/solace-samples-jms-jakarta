@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: TopicSubscriber
+ *  Solace Jakarta Messaging Examples: TopicSubscriber
  */
 
 package com.solace.samples;
@@ -37,7 +37,7 @@ import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Subscribes to messages published to a topic using Solace JMS 1.1 API implementation.
+ * Subscribes to messages published to a topic using Solace Jakarta Messaging API implementation.
  *
  * This is the Subscriber in the Publish/Subscribe messaging pattern.
  */

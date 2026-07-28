@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use Solace JMS API with JSON Schema deserialization to consume a message
+ * This sample demonstrates how to use Solace Jakarta Messaging API with JSON Schema deserialization to consume a message
  * and deserialize its payload to a Plain Old Java Object (POJO).
  * The JSON schema (user.json) being deserialized contains the 'customJavaType' property, which specifies the target
  * class for deserialization. Refer to the {@link JsonSchemaProperties#TYPE_PROPERTY} configuration being done

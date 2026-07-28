@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueProducer
+ *  Solace Jakarta Messaging Examples: QueueProducer
  */
 
 package com.solace.samples;
@@ -35,7 +35,7 @@ import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Sends a persistent message to a queue using Solace JMS API implementation.
+ * Sends a persistent message to a queue using Solace Jakarta Messaging API implementation.
  * 
  * The queue used for messages is created on the message broker.
  */

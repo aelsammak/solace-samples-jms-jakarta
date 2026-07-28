@@ -49,7 +49,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with JSON Schema serialization and deserialization
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with JSON Schema serialization and deserialization
  * for the Request-Reply messaging pattern. It connects to a Solace message broker, serializes a CreateUser
  * request (a Plain Old Java Object) using the {@link JsonSchemaSerializer}, publishes it to a request topic,
  * waits for a reply, and then deserializes the CreateUserResponse reply.

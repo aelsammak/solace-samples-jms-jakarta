@@ -40,7 +40,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use Solace JMS API with JSON Schema deserialization to consume a message
+ * This sample demonstrates how to use Solace Jakarta Messaging API with JSON Schema deserialization to consume a message
  * and deserialize its payload to a JsonNode. This approach is useful for handling JSON in a generic way,
  * without needing a predefined Java class.
  * It connects to a Solace message broker, subscribes to a topic, and deserializes the received message using JSON Schema.
