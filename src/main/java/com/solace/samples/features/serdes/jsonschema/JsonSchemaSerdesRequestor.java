@@ -32,16 +32,16 @@ import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TemporaryQueue;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TemporaryQueue;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
@@ -49,7 +49,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with JSON Schema serialization and deserialization
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with JSON Schema serialization and deserialization
  * for the Request-Reply messaging pattern. It connects to a Solace message broker, serializes a CreateUser
  * request (a Plain Old Java Object) using the {@link JsonSchemaSerializer}, publishes it to a request topic,
  * waits for a reply, and then deserializes the CreateUserResponse reply.

@@ -58,9 +58,9 @@ configurations {
 }
 
 dependencies {
-    // Solace Messaging API for JMS Dependencies
-    implementation group: 'com.solacesystems', name:'sol-jms', version: '[10.30.1,)'
-    implementation group: 'javax.jms', name: 'javax.jms-api', version: '2.0.1'
+    // Solace Messaging API for Jakarta Messaging Dependencies
+    // (jakarta.jms-api:3.1.0 is pulled transitively by sol-jms-jakarta at compile scope)
+    implementation group: 'com.solacesystems', name:'sol-jms-jakarta', version: '[10.30.1,)'
     implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.+'
     implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.+'
     implementation group: 'org.apache.logging.log4j', name: 'log4j-jcl', version: '2.+'
@@ -74,7 +74,7 @@ dependencies {
     implementation group: 'io.opentelemetry', name: 'opentelemetry-exporter-otlp', version: '1.47.+'
     implementation group: 'io.opentelemetry.semconv', name: 'opentelemetry-semconv', version: '1.29.+'
 
-    //Solace OpenTelemetry Integration for JMS
+    //Solace OpenTelemetry Integration for JMS (namespace-agnostic — uses reflection, works with jakarta.jms)
     implementation group: 'com.solace', name: 'solace-opentelemetry-jms-integration', version: '1.1.0'
 
     // For any local libs that are not available from mavenCentral

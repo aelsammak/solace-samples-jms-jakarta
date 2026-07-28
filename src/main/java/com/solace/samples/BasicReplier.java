@@ -18,31 +18,31 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: BasicReplier
+ *  Solace Jakarta Messaging Examples: BasicReplier
  */
 
 package com.solace.samples;
 
 import java.util.concurrent.CountDownLatch;
 
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageListener;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Destination;
+import jakarta.jms.JMSException;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageListener;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Receives a request message using Solace JMS API implementation and replies to it.
+ * Receives a request message using Solace Jakarta Messaging API implementation and replies to it.
  * 
  * This is the Replier in the Request/Reply messaging pattern.
  */

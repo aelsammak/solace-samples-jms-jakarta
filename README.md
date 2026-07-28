@@ -1,7 +1,11 @@
 [![Build Status](https://travis-ci.org/SolaceSamples/solace-samples-jms.svg?branch=master)](https://travis-ci.org/SolaceSamples/solace-samples-jms)
 
 # Getting Started Examples
-## Solace JMS API
+## Solace Jakarta Messaging API
+
+These samples use the [Jakarta Messaging API](https://jakarta.ee/specifications/messaging/) (`jakarta.jms` namespace) via Solace's `sol-jms-jakarta` library.
+
+> **You can find the legacy `javax.jms` samples** at the [`javax.jms-implementation`](https://github.com/SolaceSamples/solace-samples-jms/tree/javax.jms-implementation) branch.
 
 The "Getting Started" tutorials will get you up to speed and sending messages with Solace technology as quickly as possible. There are three ways you can get started:
 
@@ -25,20 +29,20 @@ See the individual tutorials for details:
 
 ## Prerequisites
 
-This tutorial requires the Solace JMS API library. There are multiple options for getting the Solace JMS API. 
-### Option 1: Download the JMS API library
-Download from [here](https://solace.com/downloads/?fwp_downloads=solace-apis). The JMS API is distributed as a zip file containing the required jars, API documentation, and examples.
+This tutorial requires the Solace Jakarta Messaging API library (`sol-jms-jakarta`). There are multiple options for getting it.
+### Option 1: Download the Jakarta Messaging API library
+Download from [here](https://solace.com/downloads/?fwp_downloads=solace-apis). The Jakarta Messaging API is distributed as a zip file containing the required jars, API documentation, and examples.
 
 ### Option 2: Using it with Gradle
-`implementation("com.solacesystems:sol-jms:10.10.0")`
-or `implementation group: 'com.solacesystems', name: 'sol-jms', version: '10.10.0'`
+`implementation("com.solacesystems:sol-jms-jakarta:10.30.1")`
+or `implementation group: 'com.solacesystems', name: 'sol-jms-jakarta', version: '10.30.1'`
 
 ### Option 3: Using it with Maven
 ```
 <dependency>
    <groupId>com.solacesystems</groupId>
-   <artifactId>sol-jms</artifactId>
-   <version>10.10.0</version>
+   <artifactId>sol-jms-jakarta</artifactId>
+   <version>10.30.1</version>
 </dependency>
 ```
 

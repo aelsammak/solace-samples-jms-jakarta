@@ -26,17 +26,17 @@ import com.solace.serdes.common.resolver.config.SchemaResolverProperties;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.Topic;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with Avro serialization to produce messages
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with Avro serialization to produce messages
  * from a generated Avro specific record (the {@link User} class). It connects to a Solace message broker,
  * serializes a strongly-typed {@code User} using Avro, and publishes a single message to a topic.
  *

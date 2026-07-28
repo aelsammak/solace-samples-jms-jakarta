@@ -22,12 +22,12 @@ package com.solace.samples.features.distributedtracing.manualinstrumentation;
 import com.solace.opentelemetry.javaagent.jms.SolaceJmsW3CTextMapGetter;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
-import javax.jms.Connection;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.Queue;
-import javax.jms.Session;
+import jakarta.jms.Connection;
+import jakarta.jms.JMSException;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.Queue;
+import jakarta.jms.Session;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 import java.util.function.Consumer;
@@ -46,7 +46,7 @@ import io.opentelemetry.context.Scope;
 import io.opentelemetry.semconv.SemanticAttributes;
 
 /**
- * Subscribes to message published to a Queue using Solace JMS 1.1 API implementation.
+ * Subscribes to message published to a Queue using Solace Jakarta Messaging API implementation.
  * <p>
  * Setup a Solace PubSub+ Broker and OpenTelemetry Collector as per tutorial  >
  * https://codelabs.solace.dev/codelabs/dt-otel/index.html

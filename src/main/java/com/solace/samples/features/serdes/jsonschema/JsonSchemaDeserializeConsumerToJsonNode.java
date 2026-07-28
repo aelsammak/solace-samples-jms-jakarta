@@ -27,20 +27,20 @@ import com.solace.serdes.jsonschema.JsonSchemaValidationException;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use Solace JMS API with JSON Schema deserialization to consume a message
+ * This sample demonstrates how to use Solace Jakarta Messaging API with JSON Schema deserialization to consume a message
  * and deserialize its payload to a JsonNode. This approach is useful for handling JSON in a generic way,
  * without needing a predefined Java class.
  * It connects to a Solace message broker, subscribes to a topic, and deserializes the received message using JSON Schema.

@@ -26,20 +26,20 @@ import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 import org.apache.avro.generic.GenericRecord;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use Solace JMS API with Avro deserialization to consume a message.
+ * This sample demonstrates how to use Solace Jakarta Messaging API with Avro deserialization to consume a message.
  * It connects to a Solace message broker, subscribes to a topic, and deserializes the received message using Avro
  * into a generic record (an Avro {@link GenericRecord}). This is the default record type and requires no
  * generated schema class.

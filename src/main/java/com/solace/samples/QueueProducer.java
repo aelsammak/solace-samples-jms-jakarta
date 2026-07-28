@@ -18,24 +18,24 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueProducer
+ *  Solace Jakarta Messaging Examples: QueueProducer
  */
 
 package com.solace.samples;
 
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Message;
-import javax.jms.MessageProducer;
-import javax.jms.Queue;
-import javax.jms.Session;
-import javax.jms.TextMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Message;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Queue;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
 
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Sends a persistent message to a queue using Solace JMS API implementation.
+ * Sends a persistent message to a queue using Solace Jakarta Messaging API implementation.
  * 
  * The queue used for messages is created on the message broker.
  */

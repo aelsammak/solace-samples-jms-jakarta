@@ -18,26 +18,26 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: TopicSubscriber
+ *  Solace Jakarta Messaging Examples: TopicSubscriber
  */
 
 package com.solace.samples;
 
 import java.util.concurrent.CountDownLatch;
 
-import javax.jms.Connection;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageListener;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.Connection;
+import jakarta.jms.JMSException;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageListener;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Subscribes to messages published to a topic using Solace JMS 1.1 API implementation.
+ * Subscribes to messages published to a topic using Solace Jakarta Messaging API implementation.
  *
  * This is the Subscriber in the Publish/Subscribe messaging pattern.
  */

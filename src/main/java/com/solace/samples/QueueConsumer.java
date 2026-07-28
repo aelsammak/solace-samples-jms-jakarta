@@ -18,28 +18,28 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueConsumer
+ *  Solace Jakarta Messaging Examples: QueueConsumer
  */
 
 package com.solace.samples;
 
 import java.util.concurrent.CountDownLatch;
 
-import javax.jms.Connection;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageListener;
-import javax.jms.Queue;
-import javax.jms.Session;
-import javax.jms.TextMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.JMSException;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageListener;
+import jakarta.jms.Queue;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
 
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Receives a persistent message from a queue using Solace JMS API implementation.
+ * Receives a persistent message from a queue using Solace Jakarta Messaging API implementation.
  *
  * The queue used for messages is created on the message broker.
  */

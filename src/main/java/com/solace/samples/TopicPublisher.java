@@ -18,24 +18,24 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: TopicPublisher
+ *  Solace Jakarta Messaging Examples: TopicPublisher
  */
 
 package com.solace.samples;
 
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Message;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Message;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
 /**
- * Publishes a messages to a topic using Solace JMS 1.1 API implementation.
+ * Publishes a messages to a topic using Solace Jakarta Messaging API implementation.
  * 
  * This is the Publisher in the Publish/Subscribe messaging pattern.
  */

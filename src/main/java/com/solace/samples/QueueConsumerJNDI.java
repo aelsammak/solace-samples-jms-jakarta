@@ -18,7 +18,7 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: QueueConsumerJNDI
+ *  Solace Jakarta Messaging Examples: QueueConsumerJNDI
  */
 
 package com.solace.samples;
@@ -26,15 +26,15 @@ package com.solace.samples;
 import java.util.Hashtable;
 import java.util.concurrent.CountDownLatch;
 
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageListener;
-import javax.jms.Queue;
-import javax.jms.Session;
-import javax.jms.TextMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.ConnectionFactory;
+import jakarta.jms.JMSException;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageListener;
+import jakarta.jms.Queue;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 
@@ -42,7 +42,7 @@ import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Receives a persistent message from a queue using Solace JMS API implementation. Connection to the Solace message
+ * Receives a persistent message from a queue using Solace Jakarta Messaging API implementation. Connection to the Solace message
  * router is setup using JNDI.
  *
  * The queue used for messages must exist on the message broker.

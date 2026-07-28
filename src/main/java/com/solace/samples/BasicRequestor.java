@@ -18,28 +18,28 @@
  */
 
 /**
- *  Solace JMS 1.1 Examples: BasicRequestor
+ *  Solace Jakarta Messaging Examples: BasicRequestor
  */
 
 package com.solace.samples;
 
 import java.util.UUID;
 
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TemporaryQueue;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TemporaryQueue;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
 
 /**
- * Sends a request message using Solace JMS API implementation and receives a reply to it.
+ * Sends a request message using Solace Jakarta Messaging API implementation and receives a reply to it.
  * 
  * This is the Requestor in the Request/Reply messaging pattern.
  */

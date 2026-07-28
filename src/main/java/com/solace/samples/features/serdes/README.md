@@ -1,4 +1,4 @@
-This package will contain Java samples that demonstrate how to Serialize and Deserialize Messages with the Solace JMS API.
+This package will contain Java samples that demonstrate how to Serialize and Deserialize Messages with the Solace Jakarta Messaging API.
 
 ### Solace Schema Registry
 For information about how to deploy and configure the Solace Schema Registry, please refer to our documentation here:

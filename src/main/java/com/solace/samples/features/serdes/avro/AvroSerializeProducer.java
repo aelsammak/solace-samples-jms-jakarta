@@ -29,19 +29,19 @@ import org.apache.avro.SchemaParser;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericRecord;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.Topic;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with Avro serialization to produce messages.
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with Avro serialization to produce messages.
  * It connects to a Solace message broker, serializes a User record using Avro from a generic record
  * (an Avro {@link GenericRecord}), and publishes a single message to a topic.
  *

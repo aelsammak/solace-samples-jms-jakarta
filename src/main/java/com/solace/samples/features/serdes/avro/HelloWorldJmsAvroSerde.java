@@ -31,16 +31,16 @@ import org.apache.avro.SchemaParser;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericRecord;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.DeliveryMode;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.MessageListener;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.DeliveryMode;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.MessageListener;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
@@ -51,7 +51,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * This sample demonstrates publishing and subscribing with Avro serialization and deserialization
- * using the Solace JMS API. It connects to a Solace message broker, publishes a User message serialized
+ * using the Solace Jakarta Messaging API. It connects to a Solace message broker, publishes a User message serialized
  * with Avro, and receives and deserializes the message back to a GenericRecord.
  *
  * <p>Before running this sample, you must upload the user.avsc schema to the Solace Schema Registry
@@ -77,7 +77,7 @@ public class HelloWorldJmsAvroSerde {
     private static final String REGISTRY_PASSWORD = getEnv("REGISTRY_PASSWORD", "roPassword");
 
     /**
-     * The main method that demonstrates the Solace JMS API usage with Avro serialization/deserialization.
+     * The main method that demonstrates the Solace Jakarta Messaging API usage with Avro serialization/deserialization.
      *
      * @param args Command line arguments: &lt;host:port&gt; &lt;message-vpn&gt; &lt;client-username&gt; [password]
      * @throws Exception If any error occurs during execution

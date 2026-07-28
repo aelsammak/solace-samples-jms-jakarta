@@ -27,20 +27,20 @@ import com.solace.serdes.common.resolver.config.SchemaResolverProperties;
 import com.solacesystems.jms.SolConnectionFactory;
 import com.solacesystems.jms.SolJmsUtility;
 
-import javax.jms.BytesMessage;
-import javax.jms.Connection;
-import javax.jms.Message;
-import javax.jms.MessageConsumer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
+import jakarta.jms.BytesMessage;
+import jakarta.jms.Connection;
+import jakarta.jms.Message;
+import jakarta.jms.MessageConsumer;
+import jakarta.jms.Session;
+import jakarta.jms.TextMessage;
+import jakarta.jms.Topic;
 import java.nio.charset.StandardCharsets;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This sample demonstrates how to use the Solace JMS API with Avro deserialization to consume a message
+ * This sample demonstrates how to use the Solace Jakarta Messaging API with Avro deserialization to consume a message
  * and deserialize its payload into a generated Avro specific record (the {@link User} class).
  * The deserializer is configured with {@link AvroProperties#RECORD_TYPE} set to
  * {@link AvroProperties.AvroRecordType#SPECIFIC_RECORD}, so it returns a strongly-typed {@code User}

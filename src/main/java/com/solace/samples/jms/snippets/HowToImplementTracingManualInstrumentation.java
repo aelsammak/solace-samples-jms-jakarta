@@ -33,13 +33,13 @@ import io.opentelemetry.semconv.SemanticAttributes;
 import io.opentelemetry.semconv.SemanticAttributes.MessagingDestinationKindValues;
 import io.opentelemetry.semconv.SemanticAttributes.MessagingOperationValues;
 import java.util.function.Consumer;
-import javax.jms.Message;
-import javax.jms.MessageProducer;
-import javax.jms.Topic;
+import jakarta.jms.Message;
+import jakarta.jms.MessageProducer;
+import jakarta.jms.Topic;
 
 /**
  * Example how to manually instrument Solace JMS publisher and receiver. All examples assume usage
- * of a newer Solace JMS API v10.18.0 or newer.
+ * of a newer Solace Jakarta Messaging API v10.18.0 or newer.
  */
 public class HowToImplementTracingManualInstrumentation {
 
